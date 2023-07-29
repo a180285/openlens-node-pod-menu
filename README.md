@@ -1,5 +1,8 @@
 # OpenLens Node/Pod Menu Extension
 
+This repo's change:
+* Add force delete pod menu item
+
 This OpenLens extension adds back the node and pod menu functionality that was removed from OpenLens itself in 6.3.0.
 
 # Installing this extension
@@ -7,7 +10,7 @@ This OpenLens extension adds back the node and pod menu functionality that was r
 In OpenLens, navigate to the Extensions list. In the text box, enter the name of this plugin:
 
 ```
-@alebcay/openlens-node-pod-menu
+@a180285/openlens-node-pod-menu
 ```
 
 Click "Install", and after a few moments, the plugin should appear in the list of installed extensions and be enabled.
