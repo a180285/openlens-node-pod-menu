@@ -56,9 +56,6 @@ export class ForceDeletePodMenu extends React.Component<Renderer.Component.KubeO
 
   render() {
     const { object, toolbar } = this.props;
-    const containers = object.getRunningContainers();
-
-    if (!containers.length) return null;
 
     return (
           <MenuItem onClick={Util.prevDefault(() => this.forceDeletePod())}>
